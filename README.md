@@ -18,16 +18,16 @@
 - ERC20: [`Token List`](https://tokenlists.org/token-list?url=https://raw.githubusercontent.com/telcoin/token-lists/master/telcoins.json)
 -This is a list of supported tokens by the Telcoin platform. In order to perform trades, users will create approvals from their wallet to the 1 inch aggregator to perform swaps
 - ADMIN: Trusted authories
-- 1 inch aggregator
-- The addresses intended to be owners of any contract can be viewed as a trusted. Here is a list of associated positions. If a means of adding one of these roles is compromised. This would be an attack surface.
-- TieredOwnership: Executor
-- TieredOwnership: Owner(s)
-- Ownable: Owner
-- AccessControlEnumerableUpgradeable: DEFAULT_ADMIN_ROLE
-- AccessControlEnumerableUpgradeable: SLASHER_ROLE
-- AccessControlEnumerableUpgradeable: PLUGIN_EDITOR_ROLE
-- AccessControlEnumerableUpgradeable: PAUSER_ROLE
-- AccessControlEnumerableUpgradeable: RECOVERY_ROLE
+    - 1 inch aggregator
+    - The addresses intended to be owners of any contract can be viewed as a trusted. Here is a list of associated positions. If a means of adding one of these roles is compromised. This would be an attack surface.
+    - TieredOwnership: Executor
+    - TieredOwnership: Owner(s)
+    - Ownable: Owner
+    - AccessControlEnumerableUpgradeable: DEFAULT_ADMIN_ROLE
+    - AccessControlEnumerableUpgradeable: SLASHER_ROLE
+    - AccessControlEnumerableUpgradeable: PLUGIN_EDITOR_ROLE
+    - AccessControlEnumerableUpgradeable: PAUSER_ROLE
+    - AccessControlEnumerableUpgradeable: RECOVERY_ROLE
 
 # Audit scope
 ```
@@ -72,10 +72,10 @@ There is a single function on `FeeBuyback` called `submit`. This allows an EOA t
 5. Perform the secondary swap and provide a reward to staking plugin, successfully exit.
 
 ## Versions
-npm: `8.19.2`
-node: `18.10.0`
-hardhat: `2.8.4`
-yarn: `1.22.19`
+- npm: `8.19.2`
+- node: `18.10.0`
+- hardhat: `2.8.4`
+- yarn: `1.22.19`
 
 ## Running Tests
 `yarn install`
