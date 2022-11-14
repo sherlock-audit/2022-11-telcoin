@@ -20,14 +20,14 @@
 - ADMIN: Trusted authories
     - 1 inch aggregator
     - The addresses intended to be owners of any contract can be viewed as a trusted. Here is a list of associated positions. If a means of adding one of these roles is compromised. This would be an attack surface.
-    - TieredOwnership: Executor
-    - TieredOwnership: Owner(s)
-    - Ownable: Owner
-    - AccessControlEnumerableUpgradeable: DEFAULT_ADMIN_ROLE
-    - AccessControlEnumerableUpgradeable: SLASHER_ROLE
-    - AccessControlEnumerableUpgradeable: PLUGIN_EDITOR_ROLE
-    - AccessControlEnumerableUpgradeable: PAUSER_ROLE
-    - AccessControlEnumerableUpgradeable: RECOVERY_ROLE
+        - TieredOwnership: Executor
+        - TieredOwnership: Owner(s)
+        - Ownable: Owner
+        - AccessControlEnumerableUpgradeable: DEFAULT_ADMIN_ROLE
+        - AccessControlEnumerableUpgradeable: SLASHER_ROLE
+        - AccessControlEnumerableUpgradeable: PLUGIN_EDITOR_ROLE
+        - AccessControlEnumerableUpgradeable: PAUSER_ROLE
+        - AccessControlEnumerableUpgradeable: RECOVERY_ROLE
 
 # Audit scope
 ```
